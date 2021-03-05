@@ -1,0 +1,121 @@
+vim
+
+h -> Move left
+
+j -> Move down
+
+l -> Move right
+
+10j -> Move down 10 lines
+
+$ -> Go to end of the current line
+
+0 -> Go to begining of the current line
+
+gg -> Go to first line of the file
+
+G -> Go to last line of the file
+
+e -> Go to end of the current word
+
+b -> Go to begining of the current word
+
+w -> Go to beginning of the next word
+
+% -> Move to matching paranthesis, bracket or brance
+
+i -> Insert before current character
+
+a -> Insert after current character
+
+o -> Insert a line bellow the current line, then enter insert mode
+
+O -> Insert line above the current line, then enter insert mode
+
+U -> Undo
+
+CTRL + R -> Redo
+
+:w -> Save the current file
+
+:wq -> Save the current file and close it; exits vim if no openfile remain
+
+:q! -> Close file without saving
+
+/whattofind -> Find in the whole document
+
+* -> navigate through findings
+
+# -> Navigate back findings
+
+L -> Bottom line on screen
+
+M -> Middel line of screen
+
+H -> Top line on the screen
+
+s -> Delete selected character and then enter into insert mode
+ 
+J -> Remove the line break bellow the selected line.
+
+:1,$d -> Delete all lines in document
+
+CTRL + d -> Half screen down
+
+CTRL + u -> Half screen up
+
+zz -> Get the current line to the middle of the screen and move th cursor with it
+
+L -> Get to the last line of the screen
+
+M -> Get to the middle line of th screen
+
+H -> Get to the first line of the screen
+
+zt -> Current line to the top of the screen and move the cursor with it
+
+zb -> Current line to the bottom of the screen
+
+CTRL + e -> Scroll down the document keep cursor at the same position
+
+CTRL + y -> Scroll up the document keep the cursor at the same position
+
+^ -> Go to first non blank character of the line
+
+g_ -> Last non blank character of the line (N-npp)
+
+dw -> Delete the till the end of the first word EX: print(Test.a) : if cursor is at p, will delete only print
+
+dW -> Deelte till the end of big word EX: print(Test.a) : if cursor is at p, will delete until the next space
+
+df, -> Delete till , including the , EX: This is my, book
+
+dt, -> Delete till , but excluding , Ex: This is my, book
+
+. -> Repeat the same operation that we last do EX: dw then pressing . will execute the same command again
+
+{
+	iw -> "inner word" works with any where in word
+		diw - Delete the word where the cursor is
+		ciw - Change inner word and if we press . on the same changed word it will replace with new text
+	it -> "inner tag" the contents of an HTML tag
+		diw - Delete the inside the html tag
+	i" -> "inner quotes
+		di" - Delete inside quotes
+	ip -> "inner paragraph"
+	as -> "a sentence"
+}
+
+d/a -> Delete till a
+
+:set nu -> Trun on absolute numbering
+
+:set nonu -> Turn off absolute numbering
+
+:set rnu -> Trun on relative numbering
+
+:set nornu -> Turn off relative numbering
+
+cs"' -> Change double quotes to single quotes "dsfsdfjeijfijeif"
+
+ysiw' -> Add ' around word
