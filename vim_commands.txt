@@ -121,6 +121,10 @@ cs"' -> Change double quotes to single quotes "dsfsdfjeijfijeif"
 
 ysiw' -> Add ' around word
 
+yss' -> Surround entire line with '
+
+ds' -> Remove surrounding ''
+
 ci( -> Change text iside the paratheses(sdfsdfewewe) 
 
 r -> Replace single character with ex: sdfwijfeijr
