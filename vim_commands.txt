@@ -27,6 +27,8 @@ w -> Go to beginning of the next word
 
 i -> Insert before current character
 
+I -> Insert at the begging of the line
+
 a -> Insert after current character
 
 o -> Insert a line bellow the current line, then enter insert mode
