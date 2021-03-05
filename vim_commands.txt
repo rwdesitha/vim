@@ -148,3 +148,30 @@ it -> Inner block with <> tag
 A -> Append at the end of the linie
 
 ea -> insert at the end of the word
+
+x -> Works like delete button, if press delete text infrom of cursor one by one
+
+X -> Works like backspace button, if press delete text behind the cursor one by one
+
+:set wrap -> Word warp on
+
+:set nowrap -> Word wrap off
+
+fx -> Go to next occurrence of character x
+
+tx -> Go to one character before next occurrence of character x
+
+Fx -> Jump to previous occurrence of character x
+
+Tx -> Jump to one character after previous occurrence of character x
+
+; -> Repeat fx or Fx serach through out the line
+
+, -> Go backward in search via ;
+
+U -> Change marked text to uppercase
+
+u -> Change marked text to lowercase
+
+~ -> Switch case
+
