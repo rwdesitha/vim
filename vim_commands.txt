@@ -120,3 +120,27 @@ d/a -> Delete till a
 cs"' -> Change double quotes to single quotes "dsfsdfjeijfijeif"
 
 ysiw' -> Add ' around word
+
+ci( -> Change text iside the paratheses(sdfsdfewewe) 
+
+r -> Replace single character with ex: sdfwijfeijr
+
+gu -> Change to lowercase up to motion EX: gu$
+
+gU -> Change to uppercase up to motion EX: gU$
+
+u -> Undo
+
+ab -> a block with () (sdefsesfae) N-npp
+
+aB -> a block with {} {sldfjoijeofise} N-pp
+
+ib -> Inner block with ()
+
+iB -> Inner block with {}
+
+it -> Inner block with <> tag
+
+A -> Append at the end of the linie
+
+ea -> insert at the end of the word
