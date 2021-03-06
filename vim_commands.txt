@@ -177,3 +177,14 @@ u -> Change marked text to lowercase
 
 ~ -> Switch case
 
+:%s/search/replace/g -> Search and replace text in entire document
+
+:8,10 s/search/replace/g -> Search and replace text in a range
+
+:set ic -> Ignore case
+
+:set noic -> Turn off ignore case
+
+/copyright\c -> Case insensitive matching
+
+/copyright\C -> Case sensitive matching
